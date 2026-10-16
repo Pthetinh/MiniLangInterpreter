@@ -1,0 +1,32 @@
+int a;
+int b;
+float pi;
+string msg;
+
+a = 1;
+b = 5;
+pi = 3.14;
+msg = "The result is:";
+
+output msg;
+
+// while loop with pre-condition
+while (a <= b) {
+    if (a == 3) {
+        output "The value of a reached the middle:";
+        output a;
+    } else {
+        output a;
+    }
+    a = a + 1;
+}
+
+// Test combined logic and arithmetic expression
+if ((a > 5) and not (b == 0)) {
+    float result;
+    result = a * pi;
+    output result;
+}
+
+
+
